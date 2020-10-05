@@ -1,0 +1,43 @@
+@import "pygments-syntax.css";
+
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: white;
+  color: #333;
+  padding: 10px 45px;
+}
+.cell {
+  margin: 10px 0;
+}
+.input {
+  background-color: #f7f7f7;
+  /* border: 1px solid #cfcfcf; */
+  /* border-radius: 2px; */
+  padding: 0 10px;
+}
+pre {
+  white-space: break-spaces;
+}
+table {
+  padding: 0;
+  border-collapse: collapse;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+table tr th {
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+table tr td {
+  border: 1px solid #cccccc;
+  margin: 0;
+  padding: 6px 13px;
+}
